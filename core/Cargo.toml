@@ -1,0 +1,8 @@
+[package]
+name = "core"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+# Add any dependencies needed for the core library
+# For now, we'll keep it empty

@@ -1,0 +1,11 @@
+[package]
+name = "methods"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+risc0-zkvm = { version = "1.0" }
+risc0-build = { path = "../../../risc0/build", features = ["unstable"] }
+
+[lib]
+path = "src/lib.rs"
